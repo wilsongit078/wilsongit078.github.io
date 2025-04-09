@@ -379,6 +379,8 @@ body {
 
 .about-banner > .img-cover { border-radius: inherit; }
 
+.about-content a{ display: contents; }
+
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
 .about :is(.section-title, .section-text) { margin-block-end: 30px; }
