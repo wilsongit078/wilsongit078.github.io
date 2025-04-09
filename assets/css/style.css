@@ -379,7 +379,7 @@ body {
 
 .about-banner > .img-cover { border-radius: inherit; }
 
-.about-content a{ display: contents; }
+.about-content a{ display: contents !important; }
 
 .about :is(.section-title, .section-subtitle, .section-text) { text-align: left; }
 
