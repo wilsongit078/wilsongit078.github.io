@@ -646,7 +646,7 @@ Choose *ROODITO* buy... </a>
     </div>
   </footer>
 
-<button onclick="get_data2()" type="button">fetch data</button>
+<button onclick="get_data2(2529)" type="button">fetch data</button>
   <div style = "width:100%; max-width:600px; margin:auto;">
     <div class="output">
        
@@ -713,7 +713,7 @@ Choose *ROODITO* buy... </a>
         output.innerHTML = "Loading...";
     
 
-        const url = 'http://localhost/blooger/api/posts/2529/html';
+        const url = 'https://theblooger.lovestoblog.com/assets/api/posts/2529/html';
         
         fetch(url).then(function(response){
             return response.text();
